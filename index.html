@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Blackjack Table</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rules.html">Blackack Rules</a></li>
+          <li><a href="table.html">Game Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="player-cards">
+        <h2>Player's Cards</h2>
+        <ul>
+          <li>🃏 Ace of Spades</li>
+          <li>🃏 King of Hearts</li>
+        </ul>
+      </section>
+
+      <section id="dealer-cards">
+        <h2>Dealer's Cards</h2>
+        <ul>
+          <li>🃏 Queen of Diamonds</li>
+          <li>🃏 7 of Clubs</li>
+        </ul>
+      </section>
+
+      <section id="player-options">
+        <h3>Player's Options</h3>
+        <dl>
+          <dt>Hit</dt>
+          <dd>Draw another card to try and get closer to 21.</dd>
+          <dt>Stand</dt>
+          <dd>Keep your current hand and end your turn.</dd>
+          <dt>Split</dt>
+          <dd>Divide your hand into two separate hands if you have a pair.</dd>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Gaming Table. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
